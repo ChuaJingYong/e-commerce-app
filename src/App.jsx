@@ -4,6 +4,7 @@ import { BrowserRouter, Link, Outlet, Route, Routes } from "react-router-dom";
 import { store } from "./store";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
+import cartIcon from "./assets/cart-icon.png";
 
 export function Layout() {
   // const cartItemCount = useSelector((state) => state.cart.length);
@@ -19,6 +20,11 @@ export function Layout() {
       <Navbar bg={"light"} variant="light">
         <Container>
           <Navbar.Brand as={Link} to={"/"}>
+            <img
+              src={cartIcon}
+              alt="cart icon"
+              style={{ width: "50px", marginRight: "20px" }}
+            />
             E-Commerce App
           </Navbar.Brand>
           <Nav>
