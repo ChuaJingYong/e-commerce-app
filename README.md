@@ -13,7 +13,6 @@ https://e-commerce-app-theta-six.vercel.app/
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Project Description
 
@@ -44,7 +43,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ChuaJingYong/shadcn-budget-mate.git
+   git clone https://github.com/ChuaJingYong/e-commerce-app.git
    cd e-commerce-app
    ```
 
@@ -73,7 +72,3 @@ Once the application is running, you can:
 1. **View Products**: Browse the list of available products on the home page.
 2. **Add to Cart**: Click on a product to add it to your shopping cart.
 3. **Manage Cart**: Navigate to the cart page to view your cart. You can increment or decrement the quantity of each product or remove products from the cart entirely.
-
-## License
-
-This project is licensed under the MIT License.
